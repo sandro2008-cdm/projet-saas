@@ -1,0 +1,22 @@
+
+// Mixins réutilisables
+@mixin center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style($bg, $color) {
+  padding: 0.8rem 1.5rem;
+  background-color: $bg;
+  color: $color;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+  &:hover {
+    background-color: darken($bg, 10%);
+  }
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Maginite Sàrl – Location de voitures de sport</title>
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="font/fontawesome-free-5.15.3-web/css/all.css">
+  </head>
+<body>
+
+
+  <header >
+    <div class="logo">
+      <img src="img/logo-magintec.png" alt="Logo Maginite">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Vehicles</a></li>
+        <li><a href="#">Conditions</a></li>
+        <li><a href="#" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ 
+  <section class="map">
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps?q=Magnetec+Sàrl,+2+Duarrefstrooss,+1990+Wasserbillig,+Luxembourg&output=embed" 
+        width="100%" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+ 
+  <section class="information">
+    <h2>Location de voitures de sport</h2>
+    <p>Réservation par email : <a href="mailto:info@magintec.com">info@magintec.com</a></p>
+  </section>
+
+  
+  <section class="contact">
+    <div class="form-container">
+      <h2>Envoyer un e-mail</h2>
+      <form>
+        <label for="nom">Nom *</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="tel">Numéro de téléphone *</label>
+        <input type="tel" id="tel" name="tel" required>
+
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+
+    <div class="info-container">
+      <h2>Contact</h2>
+      <p><i class="fas fa-home"></i> Duarrefstrooss 2, 9990 Weiswampach (Luxembourg)</p>
+      <p><i class="fas fa-phone"></i>+352 691 108 164</p>
+      <p><i class="fas fa-enveloppe"></i> <a href="mailto:info@magictime.com">info@magictime.com</a></p>
+    </div>
+  </section>
+
+   <footer class="site-footer">
+    <div class="footer-overlay">
+      <div class="footer-content">
+        <div class="section-title">
+          <span class="subtitle">COMMENT RÉSERVER UNE</span>
+          <h2 class="main-title">LOCATION DE VOITURE DE SPORT</h2>
+        </div>
+        <p class="reservation-text">
+          Prenez contact par mail à <a href="mailto:info@maginite.com">info@maginite.com</a> ou via le formulaire de notre site.
+        </p>
+        <a href="#" class="btn-reserve">JE RÉSERVE MA VOITURE</a>
+        <p class="legal">
+          Maginite Sàrl, Duerfstrooss 8, 9990 Weiswampach (Luxembourg) | Conditions générales de vente
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

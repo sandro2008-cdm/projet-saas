@@ -1,0 +1,156 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f4f4;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+header  {
+  background-color: #000;
+  padding: 2rem;
+  text-align: center;
+}
+header .logo img {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+header .menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+header .menu ul li a {
+  color: #1e501c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header .menu ul li a:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+.map{
+  background-color: #000;
+}
+
+.information{
+  background-color:#181717 ;
+  color: #000;
+  text-align: center;
+  padding: 2rem;
+}
+.information h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.information a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+.information a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background-color:#000000 ;
+}
+.contact .form-container,
+.contact .info-container {
+  flex: 1 1 400px;
+  background-color:#181717 ;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact form label {
+  margin-top: 1rem;
+}
+.contact form input,
+.contact form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.3rem;
+}
+.contact form button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.contact form button:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+.contact .info-container a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+.contact .info-container a:hover {
+  text-decoration: underline;
+}
+
+footer{
+  background-image:  linear-gradient(
+      rgba(0, 0, 0, 0.5),  
+      rgba(0, 0, 0, 0.5)
+    ),url(../img/bmw-x1-20d-xdrive-2010_36.jpg);
+  background-size: cover;
+  color: #00000060;
+}
+footer .footer-overlay {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 3rem 1rem;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+footer .section-title .subtitle {
+  font-size: 0.9rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 0.3rem;
+}
+footer .section-title .main-title {
+  font-size: 2rem;
+  color: #2ecc71;
+  font-weight: bold;
+}
+footer .reservation-text{
+  color: #fff;
+}
+footer .reservation-text a {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+footer .btn-reserve {
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.8rem 1.5rem;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border-radius: 5px;
+}
+footer .btn-reserve:hover {
+  background-color: rgb(36.616, 162.384, 89.948);
+}
+footer .legal {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
